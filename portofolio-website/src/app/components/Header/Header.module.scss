@@ -1,0 +1,51 @@
+.rootHeader {
+	display: flex;
+	margin-top: 30px;
+	flex-direction: row;
+	align-items: center;
+
+	justify-content: space-between;
+	button {
+	}
+	.IconLogo {
+		display: flex;
+		align-items: center;
+		span {
+			margin-left: 5px;
+		}
+	}
+	.ListLink {
+		display: flex;
+		align-items: center;
+	}
+	li {
+		margin-left: 40px;
+		&:last-of-type {
+			margin-right: 120px;
+		}
+	}
+	@media screen and (max-width: 816px) {
+		li {
+			&:last-of-type {
+				margin-right: 10px;
+			}
+		}
+	}
+	button {
+		background-color: var(--color-blue);
+		display: flex;
+		width: 160px;
+		height: 50px;
+		padding: 17px 33px;
+		justify-content: center;
+		border-radius: 50px;
+		align-items: center;
+		gap: 10px;
+		color: #fff;
+		font-family: 'Work Sans' sans series;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
