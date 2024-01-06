@@ -11,10 +11,21 @@ const Header = () => {
 						<span>AmexDev</span>
 					</div>
 					<div className={styles.ListLink}>
-						<li>Домой</li>
-						<li>Обо мне</li>
-						<li>Блог</li>
-						<li>Контакты</li>
+						<li>
+							<a href='#'>Домой</a>
+						</li>
+						<li>
+							<a href='#'>Обо мне</a>
+						</li>
+						<li>
+							<a href='#'>Сервисы</a>
+						</li>
+						<li>
+							<a href='#'>Блог</a>
+						</li>
+						<li>
+							<a href='#'>Контакты</a>
+						</li>
 						<button>Напиши мне</button>
 					</div>
 				</ul>

@@ -1,9 +1,11 @@
 import Header from '../Header'
-
+import styles from './AboutMe.module.scss'
 const index = () => {
 	return (
 		<div>
-			<Header />
+			<div className={styles.HeaderWrapper}>
+				<Header/>
+			</div>
 		</div>
 	)
 }

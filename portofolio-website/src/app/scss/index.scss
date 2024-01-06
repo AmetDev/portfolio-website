@@ -6,7 +6,10 @@
 	@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;900&display=swap');
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 600;
-	background-color: antiquewhite;
-	max-width: 1300px;
+	background-color: var(--color-white);
+	max-width: 100%;
 	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
 }
