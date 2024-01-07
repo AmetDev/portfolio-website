@@ -1,16 +1,27 @@
+
+@keyframes slide {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
+}
 .rootWrapperSlider {
   background-color: #F8F8F8;
   height: 180px;
   position: absolute;
-//  overflow: visible;
   width: 100%;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .ImageSlider {
-  width: 124px;
+  width: 123px;
   height: 123px;
-  margin-left: 70px;
+  margin-left:6%;
+  position: relative;
+  animation: slide 15s linear infinite;
 }

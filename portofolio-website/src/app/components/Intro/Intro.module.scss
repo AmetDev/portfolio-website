@@ -54,6 +54,8 @@ $maxWidth: 1305;
 
 .introWrapper {
 	display: flex;
+	max-width: 1300px;
+	margin: 0 auto;
 	justify-content: space-between;
 	margin-bottom: 100px;
 }@media (max-width: 923px) {

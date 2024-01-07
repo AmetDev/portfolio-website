@@ -9,7 +9,10 @@ import  next from '@public/icons/next.png'
 import sass from '@public/icons/sass.png'
 import mongodb from '@public/icons/mongodb.png'
 import postgresql from '@public/icons/postgresql.png'
-
+import  ubuntu from '@public/icons/ubuntu.png'
+import github from '@public/icons/github.png'
+import git from '@public/icons/git.png'
+import nginx from '@public/icons/nginx.png'
 const icons = [
     {
         item:js
@@ -31,6 +34,18 @@ const icons = [
     },
     {
         item: postgresql
+    },
+    {
+        item: ubuntu
+    },
+    {
+        item: github
+    },
+    {
+        item: git,
+    },
+    {
+        item: nginx
     }
 ]
 const Slider = () => {
@@ -38,7 +53,7 @@ const Slider = () => {
         <div className={styles.rootWrapperSlider}>
             {
                 icons.map((icons)=>{
-                  return  <Image className={styles.ImageSlider} src={icons.item} />
+                  return   <Image key={icons.item} className={styles.ImageSlider} src={icons.item} />
                 })
             }
         </div>
