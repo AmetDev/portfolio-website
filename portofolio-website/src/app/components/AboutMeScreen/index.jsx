@@ -5,11 +5,15 @@ import Image from 'next/image';
 const AboutMeScreen = () => {
     return (
         <div className={styles.aboutMeWrapper}><h2>Обо мне</h2>
-
-          <div>       <Image src={img}/>
-        <h1>Full-stack разработчик в WEB & Mobile Разработке</h1>
-</div>
-                            </div>
+ <Image src={img}/>
+          <div>
+           
+           <div>
+           <h1>
+              <span>Full-stack разработчик</span> в WEB & Mobile Разработке</h1></div>
+            <span>Привет! Я <b>Fullstack</b> разработчик, специализирующийся на <b>React</b>, <b>Next</b> и <b>NodeJS</b>. Я использую <b>SCSS</b> для стилизации.  Кроме того, у меня есть опыт работы с <b>React Native</b> в мобильной разработке. Давайте воплотим ваши идеи в  реальность!</span>
+           </div>
+            </div>
     );
 };
 
